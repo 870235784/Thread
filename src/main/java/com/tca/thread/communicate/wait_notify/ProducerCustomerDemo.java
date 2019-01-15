@@ -50,6 +50,11 @@ class Resource {
 	}
 }
 
+/**
+ * 生产者
+ * @author zhoua
+ *
+ */
 class Producer implements Runnable{
 	
 	private static Random rand = new Random();
@@ -77,6 +82,11 @@ class Producer implements Runnable{
 	}
 }
 
+/**
+ * 消费者
+ * @author zhoua
+ *
+ */
 class Customer implements Runnable{
 	
 	private static Random rand = new Random();
