@@ -5,8 +5,13 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
+/**
+ * ThreadPoolExecutor + Callable + Future使用
+ * @author zhoua
+ *
+ */
 public class FutureDemo {
-public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception {
 		
 		Callable<Integer> call = new Callable<Integer>() {
 			

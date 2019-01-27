@@ -5,6 +5,11 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.FutureTask;
 
+/**
+ * ThreadPoolExecutor + Callable + FutureTask使用 
+ * @author zhoua
+ *
+ */
 public class FutureTaskDemo {
 	
 	public static void main(String[] args) throws Exception {
