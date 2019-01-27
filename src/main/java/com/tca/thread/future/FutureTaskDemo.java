@@ -23,8 +23,8 @@ public class FutureTaskDemo {
 		
 		ExecutorService pool = Executors.newCachedThreadPool();
 		
-		// 注意:这里必须使用execute(Runnable task)方法，不可以使用submit
-		pool.execute(futureTask);
+		//pool.execute(futureTask);
+		pool.submit(futureTask);
 		
 		pool.shutdown();
 		
