@@ -5,7 +5,7 @@ import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 
-public class MyAQSLock implements Lock{
+public class AQSLock implements Lock{
 	
 	private Sync sync = new Sync();
 	
